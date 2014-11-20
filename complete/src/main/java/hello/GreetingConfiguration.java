@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 
 @Configuration
-@EnableHypermediaSupport(type = HypermediaType.HAL)
 public class GreetingConfiguration extends WebMvcConfigurerAdapter {
     @Override
     public void addInterceptors(InterceptorRegistry reg) {
